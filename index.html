@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!-- enlazamos TAILWIND al html desde el head -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="font-['Lato']">
+    <header class="bg-slate-900 font-bold text-slate-50 w-full h-24 flex">
+        <div class="text-2xl text-center pt-5 w-40 h-16 mx-14 flex items-center justify-center">
+            <i class="fa-brands fa-spotify text-5xl mr-2"></i> ESPOTIFAI
+        </div>
+        <ul class="h-24 mr-16 flex items-center justify-center ml-auto">
+            <li class="text-lg w-40 h-16 flex items-center justify-center hover:text-[#1ed760] hover:cursor-pointer">
+                Esclusiv</li>
+            <li class="text-lg w-40 h-16 flex items-center justify-center hover:text-[#1ed760] hover:cursor-pointer">
+                Aiuda</li>
+            <li class="text-lg w-40 h-16 flex items-center justify-center hover:text-[#1ed760] hover:cursor-pointer">
+                Descargar</li>
+            <li class="text-lg w-40 h-16 flex items-center justify-center hover:text-[#1ed760] hover:cursor-pointer">
+                Registrarse</li>
+            <li class="text-lg w-40 h-16 flex items-center justify-center hover:text-[#1ed760] hover:cursor-pointer">
+                Iniciar sesion</li>
+        </ul>
+    </header>
+
+
+    <section class="promo-premium bg-[#1d75de] text-slate-50 h-96">
+        <div class="principal-text font-bold w-fit ml-[50vh] pt-14 ">
+            <p class="text-4xl  pb-10">Proba la version cheta por 1 mes</p>
+            <p class="text-2xl">Despues si dormiste, solo cuesta usd$1.000*** a la semana. Cancela cuando te percates
+            </p>
+        </div>
+        <div class="opt-botones-suscripcion font-bold w-fit ml-[50vh] pt-10">
+            <button class="bg-neutral-900 rounded-full py-3 px-5 mr-2">Vamo' noma'</button>
+            <button class="bg-transparent rounded-full border-2 border-white py-3 px-5">Averga esto</button>
+        </div>
+        <div class="letra-chica-premium text-xs	w-2/4 ml-[50vh]	pt-14 ">
+            <p>***si dormiste, solo cuesta usd $1.00 a la semana + impuestos (incluye IVA [21%], PAIS[8%], y otros
+                impuestos, imposible ponerlos todos por aca, vo buca' en tu extracto bancario nieri). El mes gratis no
+                esta disponible para los vivos que ya probaron anteriormente la version cheta. <span
+                    style="text-decoration: underline; color: #f6f6f6;">Si no te avivas tambien te ponemos Terminos y
+                    Condiciones</span></p>
+        </div>
+    </section>
+
+
+    <section class="beneficios-del-servicio-cheto bg-[#bd202a] h-[60vh] ">
+        <p class="text-4xl font-bold text-center py-16">Beneficios chetos</p>
+        <div class="cards flex flex-wrap place-content-around text-center">
+            <div class="downloads w-64 h-[350px] ">
+                <div class="logo-downloads flex items-center justify-center">
+                    <img src="https://i.scdn.co/image/ab671c3d0000f43009302fbaf6259b4c117c704f" class="w-40 h-40">
+                </div>
+                <div class="texto-descargas">
+                    <p class="font-bold text-xl	mt-10 pb-5">Descarga tu musica to legal</p>
+                    <p class="">Escuchala frente a la gorra</p>
+                </div>
+            </div>
+            <div class="musica-sin-anuncio w-64 h-[350px] ">
+                <div class="logo-musica-sin-anuncio flex items-center justify-center">
+                    <img src="https://i.scdn.co/image/ab671c3d0000f43098292b95d24a697c20df5137" class="w-40 h-40">
+                </div>
+                <p class="font-bold text-xl	mt-10 pb-5">Escucha musica sin anuncios</p>
+                <p class="">Disfruta musica sin SPAM</p>
+            </div>
+            <div class="multi-dispositivo w-64 h-[350px] ">
+                <div class="logo-multi-dispositivo flex items-center justify-center">
+                    <img src="https://i.scdn.co/image/ab671c3d0000f4306998d3ffd58aad6da6afdf67" class="w-40 h-40">
+                </div>
+                <p class="font-bold text-xl	mt-10 pb-5">Escucha la cancion que quieras</p>
+                <p class="">Porque esto no es una dictadura, si pagas, elegis :)</p>
+            </div>
+            <div class="elegi-tu-cancion w-64 h-[350px] ">
+                <div class="logo-elegi-tu-musica flex items-center justify-center">
+                    <img src="https://i.scdn.co/image/ab671c3d0000f430cd6c528745e510c5be63a012" class="w-40 h-40">
+                </div>
+                <p class="font-bold text-xl	mt-10 pb-5">Saltos ilimitados de canciones</p>
+                <p class="">El que quiere, que le cueste</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="metodos-de-pago bg-red-50">
+        <div class="texto-metodos-pagos text-center">
+            <p class="text-4xl font-bold text-center pt-16 pb-3">Elegi como garpar</p>
+            <p>Convertite asthetic reproduciendo tu miusik en el celular, parlante y otros dispositivos</p>
+        </div>
+        <div class="img-metodos-pagos flex flex-row	ml-[43.5%]">
+            <div class="m-[10px]"><i class="fa-brands fa-cc-visa text-2xl text-blue-700"></i> </div>
+            <div class="m-[10px]"><i class="fa-brands fa-cc-mastercard text-2xl text-[#ff7b00]"></i></div>
+            <div class="m-[10px]"><i class="fa-brands fa-cc-paypal text-2xl text-[#3194f7]"></i></div>
+            <div class="m-[10px]"><i class="fa-brands fa-cc-amex text-2xl text-[#3194f7]"></i></div>
+            <div class="m-[10px]"><i class="fa-brands fa-cc-apple-pay text-2xl"></i></div>
+        </div>
+        <div class="cards metodo-pagos mt-12  flex justify-between">
+            <div class="plan-individual bg-slate-50 w-[1200px] p-4 ml-[3vh] mr-[2vh] rounded-lg shadow-[1px_1px_28px_-6px_rgba(0,0,0,0.75)]">
+                <p class="bg-blue-700 text-white font-bold w-max p-2 rounded-lg mb-4">1 mes grati al suscribirse</p>
+                <p class="bg-transparent text-blue-700 font-bold w-max p-1 mb-2 rounded-lg border-2 border-blue-700">Planes prepagos disponibles</p>
+                <p class="font-bold	text-2xl">"El Egoista"</p>
+                <p class="text-[20px] mt-2">usd$599,99 al dia despues del periodo del oferton</p>
+                <p class="text-[20px]">1 cuenta</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Musica sin spam</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Escucha tu miusik incluso a fin de mes que no tenes datos</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Reproduccion on-deman</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Prepaga o suscribite</p>
+                <button class="bg-blue-900 text-white font-bold w-[300px] h-12 p-2 mt-28 mb-10 ml-[12%] rounded-full">De una</button>
+                <p class="text-xs	">***si dormiste, solo cuesta usd$599,99 a la semana + impuestos (incluye IVA [21%], PAIS[8%], y otros
+                    impuestos, imposible ponerlos todos por aca, vo buca' en tu extracto bancario nieri). El mes gratis
+                    no
+                    esta disponible para los vivos que ya probaron anteriormente la version cheta. <span
+                        style="text-decoration: underline; color: #f6f6f6;">Si no te avivas tambien te ponemos Terminos
+                        y
+                        Condiciones</span>
+                </p>
+            </div>
+            <div class="plan-pareja bg-slate-50 w-[1200px] p-4 mr-[2vh] rounded-lg shadow-[1px_1px_28px_-6px_rgba(0,0,0,0.75)]">
+                <p class="bg-blue-700 text-white font-bold w-max p-2 rounded-lg mb-4">1 mes grati al suscribirse</p>
+                <p class="bg-transparent text-blue-700 font-bold w-max p-1 mb-2 rounded-lg border-2 border-blue-700">Planes prepagos disponibles</p>
+                <p class="font-bold	text-2xl">"Romeo & Julieta"</p>
+                <p class="text-[20px] mt-2">usd$799,99 al dia despues del periodo del oferton</p>
+                <p class="text-[20px]">2 cuentas</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> 2 Cuentas chetas para parejitas curisis</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Reproduccion de miusik sin datos, sin spam y on-deman</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Prepaga o suscribite</p>
+                <button class="bg-blue-900 text-white font-bold w-[300px] h-12 p-2 mt-40 mb-10 ml-[12%] rounded-full">De una</button>
+                <p class="text-xs	">***si dormiste, solo cuesta usd$799,99 a la semana + impuestos (incluye IVA [21%], PAIS[8%], y otros
+                    impuestos, imposible ponerlos todos por aca, vo buca' en tu extracto bancario nieri). El mes gratis
+                    no
+                    esta disponible para los vivos que ya probaron anteriormente la version cheta. <span
+                        style="text-decoration: underline; color: #f6f6f6;">Si no te avivas tambien te ponemos Terminos
+                        y
+                        Condiciones</span>
+                </p>
+            </div>
+            <div class="plan-familia bg-slate-50 w-[1200px] p-4 mr-[2vh] rounded-lg shadow-[1px_1px_28px_-6px_rgba(0,0,0,0.75)]">
+                <p class="bg-blue-700 text-white font-bold w-max p-2 rounded-lg mb-4">1 mes grati al suscribirse</p>
+                <p class="bg-transparent text-blue-700 font-bold w-max p-1 mb-2 rounded-lg border-2 border-blue-700">Planes prepagos disponibles</p>
+                <p class="font-bold	text-2xl">"Se separa el grupito de ahi atras"</p>
+                <p class="text-[20px] mt-2">usd$999,99 al dia despues del periodo del oferton</p>
+                <p class="text-[20px]">Hasta 6 cuentas</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> 6 cuentas chetas para esos que hacen vaquita entre los vagos del barrio</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> aca si es dictadura, podes bloquear contenido explicito</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Reproduccion de miusik sin datos, sin spam y on-deman</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Espotikids para el vago que tiene nieris. Creada solo para ninies</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Prepaga o suscribite</p>
+                <button class="bg-blue-900 text-white font-bold w-[300px] h-12 p-2  mt-[12px] mb-10 ml-[12%] rounded-full">De una</button>
+                <p class="text-xs	">***si dormiste, solo cuesta usd$999,99 a la semana + impuestos (incluye IVA [21%], PAIS[8%], y otros
+                    impuestos, imposible ponerlos todos por aca, vo buca' en tu extracto bancario nieri). El mes gratis
+                    no
+                    esta disponible para los vivos que ya probaron anteriormente la version cheta. <span
+                        style="text-decoration: underline; color: #f6f6f6;">Si no te avivas tambien te ponemos Terminos
+                        y
+                        Condiciones</span>
+                </p>
+            </div>
+            <div class="plan-estudiante bg-slate-50 w-[1200px] p-4 mr-[3vh] rounded-lg shadow-[1px_1px_28px_-6px_rgba(0,0,0,0.75)]">
+                <p class="bg-blue-700 text-white font-bold w-max p-2 rounded-lg mb-4">1 mes grati al suscribirse</p>
+                <p class="bg-transparent text-blue-700 font-bold w-max p-1 mb-2 rounded-lg border-2 border-blue-700">Planes prepagos disponibles</p>
+                <p class="font-bold	text-2xl">"Queriendo abandonar la carrera"</p>
+                <p class="text-[20px] mt-2">usd$329,99 al dia despues del periodo del oferton</p>
+                <p class="text-[20px]">1 cuenta</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Descuento especial para el quebrado que solo tiene cash para el sanguchito en el patio de la
+                    facu</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Miusik sin spam</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Te bancamos el escuchar musica incluso cuando no tenes datos</p>
+                <p class="text-[15px] m-5"><span style="font-weight:bolder;" class="text-2xl">&#10003;</span> Reproduccion on-deman</p>
+                <button class="bg-blue-900 text-white font-bold w-[300px] h-12 p-2  mt-[87px] mb-10 ml-[12%] rounded-full">De una</button>
+                <p class="text-xs	">***si dormiste, solo cuesta usd$329,99 a la semana + impuestos (incluye IVA [21%], PAIS[8%], y otros
+                    impuestos, imposible ponerlos todos por aca, vo buca' en tu extracto bancario nieri). El mes gratis
+                    no
+                    esta disponible para los vivos que ya probaron anteriormente la version cheta. <span
+                        style="text-decoration: underline; color: #f6f6f6;">Si no te avivas tambien te ponemos Terminos
+                        y
+                        Condiciones</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
